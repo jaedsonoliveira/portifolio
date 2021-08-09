@@ -1,0 +1,286 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+    <title>Portifolio Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="assets/css/lightbox.min.css">
+    
+</head>
+    <body>
+        <header>
+            <div class="scroll-up-btn">
+                <i class="fa fa-angle-up"></i>
+            </div>
+            <nav class="navbar">
+                <div class="max-width">
+                <div class="logo"><a href="#">Portifo<span>lio.</span></a></div>
+                <ul class="menu">
+                    <li><a href="#home" class="menu-btn">Home</a></li>
+                    <li><a href="#about" class="menu-btn">Sobre</a></li>
+                    <li><a href="#services" class="menu-btn">Servicos</a></li>
+                    <li><a href="#projects" class="menu-btn">Projetos</a></li>
+                    <li><a href="#skills" class="menu-btn">Habilidades</a></li>
+                    <li><a href="#contact" class="menu-btn">Contato</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="fa fa-bars"></i>
+                </div>
+                </div>
+            </nav>
+        </header>
+
+            <section class="home" id="home">
+                <div class="max-width">
+                    <div class="home-content">
+                        <div class="text-1">Olá, meu nome é</div>
+                        <div class="text-2">Jaedson Alves</div>
+                        <div class="text-3">Eu sou Desenvolvedor <span class="typing"></span></div>
+                        <a href="#contact">Entre em contato</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="max-width">
+                    <h2 class="title">Sobre Mim</h2>
+                    <div class="about-content">
+                        <div class="column left">
+                            <img src="assets/img/profile.jpg"/>
+                        </div>
+                    <div class="column right">
+                        <div class="text">Meu nome é Jaedson e eu sou Desenvolvedor <span class="typing-2"></span></div>
+                        <p>Tenho 23 anos, curso análise e desenvolvimento de sistemas, sou uma pessoa simples, mas com grandes objetivos de vida e profissional, possuo facilidade em me adaptar a diferentes realidades e ambientes e busco sempre fazer o meu melhor naquilo que me proponho.<br>
+                            Acredito que o conhecimento aliado ao esforço é o que define como alcancamos nossos objetivos e determina como nos relacionamos.
+                        </p>
+                        <a href="CV.pdf" target="blank">Baixar CV</a>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="services" id="services">
+                <div class="max-width">
+                    <h2 class="title">Serviços</h2>
+                    <div class="services-content">
+                        <div class="card">
+                            <div class="box">
+                                <i class="fa fa-desktop"></i>
+                                <div class="text">Desenvolvimento de sistemas</div>
+                                <p>Criação de sites e sistemas podendo atuar no desenvolvimento tanto no frontendo e/ou backend</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <i class="fa fa-code"></i>
+                                <div class="text">Código bem estruturado</div>
+                                <p>Codificação seguindo bons padrões de desenvolvimento, com a finalidade de buscar melhor perfomance do sistema</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <i class="fa fa-mobile"></i>
+                                <div class="text res">Responsividade</div>
+                                <p>Disposição dos elementos e o conteúdo se adaptam de acordo com o tamanho da tela do dispositivo do usuário,com objetivo de melhorar a experiência.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>    
+
+            <section id="projects" class="projects">
+                <h2 class="title">Projetos</h2>
+                <div class="gallery">
+                    <ul class="controls">
+                        <li class="buttons active" data-filter="all">all</li>
+                        <li class="buttons" data-filter="html">HTML/CSS</li>
+                        <li class="buttons" data-filter="javascript">Javascript</li>
+                        <li class="buttons" data-filter="react">ReactJs</li>
+                        <li class="buttons" data-filter="php">PHP</li>
+                    </ul>
+                
+                    <div class="image-container">
+                
+                        <a href="assets/img/churrasco.png" class="image html" data-lightbox="mygallery" >
+                            <img src="assets/img/churrasco.png" alt="">
+                        </a>
+                        <a href="assets/img/hulu.jpg" data-lightbox="mygallery" class="image html">
+                            <img src="assets/img/hulu.jpg" alt="">
+                        </a>
+                        <a href="assets/img/musicplayer2.jpg" data-lightbox="mygallery" class="image javascript">
+                            <img src="assets/img/musicplayer2.jpg" alt="">
+                        </a>
+                
+                        <a href="assets/img/vendacomida1.jpg" data-lightbox="mygallery" class="image javascript">
+                            <img src="assets/img/vendacomida1.jpg" alt="">
+                        </a>
+                        <a href="assets/img/breaking.jpg" data-lightbox="mygallery" class="image react">
+                            <img src="assets/img/breaking-bad.jpg" alt="">
+                        </a>
+                
+                        <a href="assets/img/devsfood.jpg" data-lightbox="mygallery" class="image react">
+                            <img src="assets/img/devsfood.jpg" alt="">
+                        </a>
+                
+                    </div>        
+                </div>  
+            </section>
+            
+            <section id="skills" class="skills">
+                <div class="max-width">
+                    <h2 class="title">Habilidades</h2>
+                    <div class="carousel owl-carousel">
+                        <div class="card">
+                            <div class="box">
+                                <img src="assets/img/html5.png"/>
+                                <div class="text">HTML5</div>
+                                <p>HTML5, é uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <img src="assets/img/css.png">
+                                <div class="text">CSS3</div>
+                                <p>CSS é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo do visual do site.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <img src="assets/img/js.png">
+                                <div class="text">Javascript</div>
+                                <p>JavaScript é uma linguagem de programação que permite implementar funcionalidades mais complexas em páginas web.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <img src="assets/img/bootstrap-social.png">
+                                <div class="text">Bootstrap</div>
+                                <p>Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="box">
+                                <img src="assets/img/sass.png">
+                                <div class="text">Sass</div>
+                                <p>O SASS é um pré processador do CSS, que nos permite fazer coisas muito além das que estamos acostumados a fazer normalmente.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <img src="assets/img/react.png">
+                                <div class="text">ReactJs</div>
+                                <p>O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. </p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <img src="assets/img/php.png">
+                                <div class="text">PHP</div>
+                                <p>É uma linguagem de programação, usada para o desenvolvimento de aplicações presentes e atuantes no lado do servidor.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <img src="assets/img/sql.png">
+                                <div class="text">SQL</div>
+                                <p>Resumidamente, é uma linguagem de programação para lidar com banco de dados relacional (baseado em tabelas).</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <img src="assets/img/firebas.png">
+                                <div class="text">Firebase</div>
+                                <p>Firebase é um modelo de serviço que provê a infraestrutura e o backend de uma aplicação de forma simplificada.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <img src="assets/img/ui.png">
+                                <div class="text">UI</div>
+                                <p>O UI, User Interface, define como melhorar a interação entre usuários e aplicativos ou softwares. O objetivo é melhorar a experiência.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="box">
+                                <img src="assets/img/scrum.png">
+                                <div class="text">SCRUM</div>
+                                <p>É um framework de gerenciamento de projetos, da organização ao desenvolvimento ágil de produtos complexos e adaptativos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+                <div class="max-width">
+                    <h2 class="title">Contato</h2>
+                    <div class="contact-content">
+                    <div class="column left">
+                      
+                        <div class="icons">
+                            <div class="row">
+                                <i class="fa fa-user"></i>
+                                <div class="info">
+                                    <div class="head">Nome</div>
+                                    <div class="sub-title">Jaedson Alves</div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <i class="fa fa-envelope"></i>
+                                <div class="info">
+                                    <div class="head">Email</div>
+                                    <div class="sub-title">jaedsom.alves@gmail.com</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <i class="fa fa-github"></i>
+                                <div class="info">
+                                    <div class="head">Github</div>
+                                    <div class="sub-title">https://github.com/jaedsonoliveira</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <i class="fa fa-linkedin"></i>
+                                <div class="info">
+                                    <div class="head">Linkedin</div>
+                                    <div class="sub-title">https://www.linkedin.com/in/jaedson-alves/</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column right">
+                        <img src="assets/img/contato.jpg"/>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+            <footer>
+                <span>Criado por Jaedson Alves <span class="fa fa-copyright"> 2021</span>
+            </footer> 
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
