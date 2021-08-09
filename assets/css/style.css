@@ -605,7 +605,7 @@ footer span a:hover{
         font-size: 60px;
     }
     .home .home-content .text-3{
-        font-size: 32px;
+        font-size: 30px;
     }
     .home .home-content a{
         font-size: 20px;
@@ -625,7 +625,7 @@ footer span a:hover{
         font-size: 50px;
     }
     .home .home-content .text-3{
-        font-size: 27px;
+        font-size: 22px;
     }
     .home .home-content a{
         font-size: 20px;
@@ -635,5 +635,28 @@ footer span a:hover{
         width: 250px!important;
         height:80vh!important;
     }
+
+    .gallery{
+        align-items: initial;
+    }
+    .contact .contact-content .row{
+        font-size: 15px;
+    }
     
+}
+
+@media(max-width:375px){
+    .home .home-content .text-2{
+        font-size: 40px;
+    }
+    .home .home-content .text-3{
+        font-size: 20px;
+    }
+    .contact .contact-content .row{
+        font-size: 13px;
+    }
+    .contact .title{
+        position:inherit;
+    }
+   
 }
