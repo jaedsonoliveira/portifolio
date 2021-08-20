@@ -376,9 +376,10 @@ section .title::after{
 }
 
 .lightbox .lb-image{
-    width: 350px!important;
+    width: 55vw!important;
     height:90vh!important;
 }
+
 
 /* skills section*/
 .skills .title::after{
@@ -615,6 +616,9 @@ footer span a:hover{
     .about .about-content .right .text{
         font-size: 16px;
     }
+    .image{
+        pointer-events: none;
+    }
 }
 
 @media(max-width:510px){
@@ -629,7 +633,7 @@ footer span a:hover{
         padding:6px 18px;
     }
     .lightbox .lb-image{
-        width: 250px!important;
+        width: 100vw!important;
         height:80vh!important;
     }
 
@@ -639,6 +643,7 @@ footer span a:hover{
     .contact .contact-content .row{
         font-size: 15px;
     }
+    
     
 }
 
