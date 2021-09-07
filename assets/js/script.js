@@ -25,6 +25,34 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
+    $('.btn-app').click(function(){
+        window.open('https://applandingpage.vercel.app', '_blank');
+
+    });
+
+    $('.btn-dolla').click(function(){
+        window.open('https://dolla-react-website.vercel.app/', '_blank');
+
+    });
+
+    $('.btn-hulu').click(function(){
+        window.open('https://huluclone12.netlify.app/', '_blank');
+
+    });
+
+    $('.btn-music').click(function(){
+        window.open('https://musicplayerjavascript2.netlify.app/', '_blank');
+
+    });
+
+    $('.btn-venda').click(function(){
+        window.open('https://venda-comida.netlify.app/', '_blank');
+    });
+
+    $('.btn-bad').click(function(){
+        window.open('https://breaking-character.netlify.app/', '_blank');
+    });
+
     // typing text animation script
     var typed = new Typed(".typing",{
         strings:["Frontend"],
