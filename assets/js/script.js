@@ -55,16 +55,16 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing",{
-        strings:["Frontend"],
-        typeSpeed:200,
-        backSpeed:60,
-        loop:false
+        strings:["Frontend", "PHP"],
+        typeSpeed:150,
+        backSpeed:100,
+        loop:true
     });
 
     var typed = new Typed(".typing-2",{
-        strings:["Frontend"],
-        typeSpeed:200,
-        backSpeed:120,
+        strings:["Frontend", "PHP"],
+        typeSpeed:150,
+        backSpeed:100,
         loop:true
     });
 
