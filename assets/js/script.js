@@ -34,6 +34,10 @@ $(document).ready(function(){
         window.open('https://dolla-react-website.vercel.app/', '_blank');
 
     });
+    $('.btn-air').click(function(){
+        window.open('https://next-airbnbclone.vercel.app/', '_blank');
+
+    });
 
     $('.btn-hulu').click(function(){
         window.open('https://huluclone12.netlify.app/', '_blank');
