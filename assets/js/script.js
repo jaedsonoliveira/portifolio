@@ -39,8 +39,8 @@ $(document).ready(function(){
 
     });
 
-    $('.btn-hulu').click(function(){
-        window.open('https://huluclone12.netlify.app/', '_blank');
+    $('.btn-fruit').click(function(){
+        window.open('https://github.com/jaedsonoliveira/fruitstore', '_blank');
 
     });
 
@@ -53,8 +53,8 @@ $(document).ready(function(){
         window.open('https://venda-comida.netlify.app/', '_blank');
     });
 
-    $('.btn-bad').click(function(){
-        window.open('https://breaking-character.netlify.app/', '_blank');
+    $('.btn-dash').click(function(){
+        window.open('https://github.com/jaedsonoliveira/dashboard-store', '_blank');
     });
 
     // typing text animation script

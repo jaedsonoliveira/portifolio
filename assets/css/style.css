@@ -26,7 +26,7 @@ html{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background-color: crimson;
+    background-color: #015f38;
 }
 .navbar .max-width{
     display: flex;
@@ -39,7 +39,7 @@ html{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: #015f38;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -59,10 +59,10 @@ html{
 }
 
 .navbar .menu li a:hover{
-    color: crimson;
+    color: #015f38;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: #015f38;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -79,7 +79,7 @@ html{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #015f38;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -125,23 +125,23 @@ html{
 }
 
 .home .home-content .text-3 span{
-    color: crimson;
+    color: #04a864;
     font-weight: 500;
 }
 
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: #015f38;
     color: #fff;
     font-size: 22px;
     padding:10px 20px;
     margin-top: 20px;
     border-radius: 6px;
-    border:2px solid crimson;
+    border:2px solid #015f38;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: #015f38;
     background: none;
 }
 
@@ -172,7 +172,7 @@ section .title::after{
     bottom: -12px;
     left: 50%;
     font-size:20px;
-    color: crimson;
+    color: #015f38;
     padding:5px;
     background: #fff;
     transform:translateX(-50%);
@@ -220,26 +220,26 @@ section .title::after{
 }
 
 .about .about-content .right .text span{
-    color: crimson;
+    color: #015f38;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background: #015f38;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding:1px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border:2px solid crimson;
+    border:2px solid #015f38;
     transition: all 0.3s ease;
 }
 
 .about .about-content .right a:hover{
-    color: crimson;
+    color: #015f38;
     background: none;
 }
 
@@ -273,13 +273,13 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .services-content .card:hover {
-    background: crimson;
+    background: #015f38;
     transition: all 0.5s ease;
     ;
 }
 .services .services-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: #01864f;
     transition: color 0.3s ease;
 }
 .services .services-content .card:hover i{
@@ -303,7 +303,7 @@ section .title::after{
 
 .projects button{
         display: inline-block;
-        background: crimson;
+        background: #015f38;
         color: #fff;
         font-size: 14px;
         line-height: 1.4rem;
@@ -312,7 +312,7 @@ section .title::after{
         padding:4px 14px;
         margin-top: 20px;
         border-radius: 6px;
-        border:2px solid crimson;
+        border:2px solid #015f38;
         transition: all 0.3s ease;
         cursor: pointer;
         
@@ -419,7 +419,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .skills .carousel .card:hover{
-    background: crimson;
+    background: #015f38;
 }
 .skills .carousel .card .box{
     display: flex;
@@ -458,7 +458,7 @@ section .title::after{
     margin:0 5px;
     outline: none !important;
     border-radius: 50%;
-    border:2px solid crimson!important;
+    border:2px solid #015f38!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -468,7 +468,7 @@ section .title::after{
 .owl-dot.active,
 .owl-dot:hover
 {
-    background: crimson!important;
+    background: #015f38!important;
 }
 
 /*contact section*/
@@ -490,7 +490,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: #015f38;
 }
 
 .contact .contact-content .info .head{
@@ -512,7 +512,7 @@ footer{
     color: #fff;
 }
 footer span a{
-    color: crimson;
+    color: #015f38;
     text-decoration: none;
 }
 footer span a:hover{
